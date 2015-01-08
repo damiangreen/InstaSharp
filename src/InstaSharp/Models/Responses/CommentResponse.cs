@@ -1,7 +1,7 @@
 ﻿namespace InstaSharp.Models.Responses
 {
     /// <summary>
-    /// Commetns Response
+    /// Comment Response
     /// </summary>
     public class CommentResponse : Response
     {
@@ -11,6 +11,6 @@
         /// <value>
         /// The data.
         /// </value>
-        public string Data { get; set; }
+        public Comment Data { get; set; }
     }
 }
